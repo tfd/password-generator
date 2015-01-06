@@ -7,19 +7,17 @@
     "node",
     "javascript"
   ],
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": false,
   "author": "Ronald van Uffelen <ronald.vanuffelen@gmail.com>",
   "repository": {
     "type": "git",
     "url": "git://github.com/tfd/password-generator.git"
   },
-  "main": "/src/index.js",
+  "main": "./src/index.js",
   "engines": {
     "node": "0.10.x",
     "npm": "1.3.x"
-  },
-  "dependencies": {
   },
   "devDependencies": {
     "grunt": "~0.4.1",
