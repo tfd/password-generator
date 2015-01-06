@@ -3,6 +3,19 @@ password-generator
 
 Simple utility to generate a password
 
+## Install
+
+```sh
+npm install git+ssh://git@github.com/tfd/password-generator.git
+```
+
+## Build
+
+```sh
+npm install
+grunt
+```
+
 ## Methods
 The following methods and properties are defined:
 
@@ -71,6 +84,7 @@ to, be, been, is, and, has, have, with, that, at, same
 ## Example
 
 ```javascript
+var PasswordGenerator = require('password-generator');
 var pwd = new PasswordGenerator().with.at.least(2).numbers
                                  .and.at.most(5).uppercase
                                  .and.with.minLength(8)
