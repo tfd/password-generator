@@ -1,0 +1,36 @@
+{
+  "name": "password-generator",
+  "description": "Simple utility to generate a password",
+  "keywords": [
+    "password",
+    "generator",
+    "node",
+    "javascript"
+  ],
+  "version": "0.0.1",
+  "private": false,
+  "author": "Ronald van Uffelen <ronald.vanuffelen@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tfd/password-generator.git"
+  },
+  "main": "/src/index.js",
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.3.x"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-browserify": "~3.1.0",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-copy": "~0.4.1",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-uglify": "~0.2.7",
+    "grunt-simple-mocha": "~0.4.0",
+    "load-grunt-tasks": "~0.2.0",
+    "sinon": "~1.8.1",
+    "sinon-chai": "~2.5.0"
+  }
+}
