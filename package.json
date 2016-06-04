@@ -7,7 +7,8 @@
     "node",
     "javascript"
   ],
-  "version": "0.0.3",
+  "version": "0.0.4",
+  "license" : "MIT",
   "private": false,
   "author": "Ronald van Uffelen <ronald.vanuffelen@gmail.com>",
   "repository": {
@@ -20,15 +21,16 @@
     "npm": "1.3.x"
   },
   "devDependencies": {
-    "grunt": "~0.4.1",
-    "grunt-browserify": "~3.1.0",
-    "grunt-contrib-clean": "~0.5.0",
-    "grunt-contrib-copy": "~0.4.1",
-    "grunt-contrib-jshint": "~0.10.0",
-    "grunt-contrib-uglify": "~0.2.7",
-    "grunt-simple-mocha": "~0.4.0",
-    "load-grunt-tasks": "~0.2.0",
-    "sinon": "~1.8.1",
-    "sinon-chai": "~2.5.0"
+    "chai": "~1.10.0",
+    "grunt": "~0.4.5",
+    "grunt-browserify": "~5.0.0",
+    "grunt-contrib-clean": "~1.0.0",
+    "grunt-contrib-copy": "~1.0.0",
+    "grunt-contrib-jshint": "~1.0.0",
+    "grunt-contrib-uglify": "~1.0.1",
+    "grunt-simple-mocha": "~0.4.1",
+    "load-grunt-tasks": "~3.5.0",
+    "sinon": "~1.17.4",
+    "sinon-chai": "~2.8.0"
   }
 }
